@@ -401,8 +401,70 @@ hr{
         /* background-color: blue; */
      } 
 }
+@media (max-width:700px) {
+    .Best_Appartment {
+        width: 95%;
+        flex-direction: column;
+        /* background-color: blue; */
+        height: auto;
+    }
+    .Best_Appartment .Content_Appartment_right{
+        width: 100%;
+        height: 100%;
+        padding: 5px;
+        /* background-color: pink; */
+        bottom: 15px;
+        left: 2px;
+    }
+
+    .Best_Appartment .Content_Appartment_center{
+        width: 100%;
+        /* background-color: red; */
+    }
+    .Best_Appartment .Content_Appartment_left{
+        width: 100%;
+        height: 100%;
+     } 
+     .Feeling{
+        margin-top: 90px;
+        height: 90vh;
+        color: aliceblue;
+        object-fit: cover;
+        background-image: url(/img/video-bg.jpg);
+        background-repeat: no-repeat;
+        text-align: center;
+        position: relative;
+        /* background-color: red; */
+    }
+    .Feeling img{
+        border-radius: 15px;
+        width: 60%;
+        left: 17%;
+        top: 35%;
+        position: absolute;
+        
+    }
+    .Feeling .txt>h2>h3{
+        right: 100px;
+        position: absolute;
+        left: 35%;
+        top: 25%;
+    }
+    .content-years{
+        width: 80%;
+        height: 120px;
+        margin: auto;
+        display: grid;
+        background-color: gray;
+        margin-top: 50px;
+        grid-template-columns: repeat(3,1fr);
+        gap: 10%;
+        padding: 10px;
+    }
+    
+}
 @media (max-width: 600px){     
-    section>.content>h1{
+   .section>.content>h1{
         font-size: 3rem;
         color: aliceblue;
         /* background-color: #b4422b; */
@@ -439,7 +501,13 @@ hr{
         width: 100%;
         height: 100%;
      } 
-
+     .Feeling .txt>h2{
+        color: red;
+        right: 100px;
+        /* position: absolute; */
+        left: 35%;
+        top: 20%;
+    }
 }
 .Feeling{
     margin-top: 80px;
